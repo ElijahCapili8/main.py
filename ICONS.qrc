@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="ARROW">
+    <file>RESOURCE/import.png</file>
+    <file>RESOURCE/logout.png</file>
+    <file>RESOURCE/notif.png</file>
+    <file>RESOURCE/attach-grey.png</file>
+    <file>RESOURCE/view.png</file>
+    <file>RESOURCE/filter1.png</file>
+    <file>RESOURCE/product.png</file>
+    <file>RESOURCE/next1.png</file>
+    <file>RESOURCE/percent.png</file>
+    <file>RESOURCE/minus.png</file>
+    <file>RESOURCE/plus.png</file>
+    <file>RESOURCE/clear white.png</file>
+    <file>RESOURCE/P.png</file>
+    <file>RESOURCE/next.png</file>
+    <file>RESOURCE/attach.png</file>
+    <file>RESOURCE/clear.png</file>
+    <file>RESOURCE/delete.png</file>
+    <file>RESOURCE/edit.png</file>
+    <file>RESOURCE/filter.png</file>
+    <file>RESOURCE/maximize.png</file>
+    <file>RESOURCE/print.png</file>
+    <file>RESOURCE/remove.png</file>
+    <file>RESOURCE/search.png</file>
+    <file>RESOURCE/user.png</file>
+  </qresource>
+</RCC>

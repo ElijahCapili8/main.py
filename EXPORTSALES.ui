@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SortSales</class>
+ <widget class="QDialog" name="SortSales">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>367</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>367</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>367</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#SortSales{
+background-color: rgb(15, 16, 43);
+}</string>
+  </property>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>CATEGORY</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="exprod">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:20px;</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>PRODUCT NAME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>START DATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_24">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>155</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+position: absolute;
+width: 131px;
+height: 34px;
+left: 52.1px;
+top: calc(50% - 34px/2 + 231px);
+
+background: #2A2A37;
+border-radius: 11px;</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/ARROW/RESOURCE/clear.png</normaloff>:/ARROW/RESOURCE/clear.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="printb">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>470</y>
+     <width>155</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: rgb(0, 0, 0);
+box-sizing: border-box;
+
+position: absolute;
+width: 131px;
+height: 34px;
+left: 200.1px;
+top: calc(50% - 34px/2 + 231px);
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>PRINT</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/ARROW/RESOURCE/next.png</normaloff>:/ARROW/RESOURCE/next.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>END DATE</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="extype">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:20px;</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>YEARLY</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MONTLHY</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>WEEKLY</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DAILY</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>SALES REPORT</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="excateg">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:20px;</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="Sdate">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:20px;</string>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy-MM-dd</string>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="Edate">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:20px;</string>
+   </property>
+   <property name="showGroupSeparator" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy-MM-dd</string>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ICONS.qrc"/>
+ </resources>
+ <connections/>
+</ui>

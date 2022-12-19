@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditProdE</class>
+ <widget class="QDialog" name="EditProdE">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>845</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>845</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#EditProdE{
+background-color: rgb(15, 16, 43);
+}</string>
+  </property>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>PRODUCT CATEGORY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prodnameTBE">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>PRODUCT NAME</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="categCBE">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:30px;</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>QUANTITY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="quantityTBE">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_21">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>310</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>19</width>
+     <height>19</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/ARROW/RESOURCE/plus.png);
+background-color: rgba(255, 255, 255, 0);
+min-width: 17px;
+min-height: 17px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>17</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_22">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>310</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>19</width>
+     <height>19</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/ARROW/RESOURCE/minus.png);
+background-color: rgba(255, 255, 255, 0);
+min-width: 17px;
+min-height: 17px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>17</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>180</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>PRODUCT PHOTO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>80</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 10.1515px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>SELLING PRICE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sellpriceTBE">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>100</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:30px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="photoTBE">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>200</y>
+     <width>328</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #777887;
+
+position: absolute;
+width: 318px;
+height: 34px;
+
+background: #434459;
+border-radius: 9.32035px;
+
+padding-left:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="picButtonE">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>210</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/ARROW/RESOURCE/attach.png);
+background-color: rgba(255, 255, 255, 0);
+min-width: 10px;
+min-height: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmButtonE">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>300</y>
+     <width>155</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: rgb(0, 0, 0);
+box-sizing: border-box;
+
+position: absolute;
+width: 131px;
+height: 34px;
+left: 200.1px;
+top: calc(50% - 34px/2 + 231px);
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>CONFIRM</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ICONS.qrc">
+     <normaloff>:/ARROW/RESOURCE/next.png</normaloff>:/ARROW/RESOURCE/next.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearButtonE">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>300</y>
+     <width>155</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+position: absolute;
+width: 131px;
+height: 34px;
+left: 52.1px;
+top: calc(50% - 34px/2 + 231px);
+
+background: #2A2A37;
+border-radius: 11px;</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ICONS.qrc">
+     <normaloff>:/ARROW/RESOURCE/clear.png</normaloff>:/ARROW/RESOURCE/clear.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>110</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/ARROW/RESOURCE/P.png);
+background-color: rgba(255, 255, 255, 0);
+min-width: 10px;
+min-height: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="xbutton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>0</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+position: absolute;
+width: 157px;
+height: 34px;
+left: 52px;
+top: calc(50% - 34px/2 - 228px);
+
+background: #F44336;
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame#frame{
+background-color: rgb(8, 8, 25);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>categCBE</zorder>
+  <zorder>label_9</zorder>
+  <zorder>prodnameTBE</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>quantityTBE</zorder>
+  <zorder>pushButton_21</zorder>
+  <zorder>pushButton_22</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>sellpriceTBE</zorder>
+  <zorder>photoTBE</zorder>
+  <zorder>picButtonE</zorder>
+  <zorder>confirmButtonE</zorder>
+  <zorder>clearButtonE</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>xbutton</zorder>
+ </widget>
+ <resources>
+  <include location="ICONS.qrc"/>
+ </resources>
+ <connections/>
+</ui>
